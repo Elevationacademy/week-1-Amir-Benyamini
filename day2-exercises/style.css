@@ -1,0 +1,77 @@
+#one {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  padding-bottom: 100px;
+  
+
+}
+
+#two {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    padding-right: 100px;
+    margin-bottom: 100px;
+  }
+
+  #parent{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+   
+  }
+
+  #child1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    
+  }
+
+  #child2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    
+    position: absolute;
+    right: 0;
+    
+  }
+
+  #child3{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+  }
+
+  #child4{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+  }
+
+  
+  #child5{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    
+    position: absolute;
+    left:100px;
+    top: 100px;
+    
+  }

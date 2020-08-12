@@ -1,0 +1,286 @@
+/* <!-- exercise number 1 --> */
+#parent1{
+    background-color: blue;
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+
+#child1{
+    background-color: red;
+    height: 15px;
+    width: 300px;
+    position: absolute;
+    top: 70px;
+    
+}
+
+#child2{
+    background-color: red;
+    height: 400px;
+    width: 15px;
+    position: absolute;
+    left: 40px;
+    
+}
+
+/* <!-- exercise number 2 --> */
+h1{
+    margin: 10px;
+}
+
+#g-container{
+width: 600px;
+height: 300px;
+background-color: slateblue;
+position: relative;
+
+}
+
+#g-box1{
+    background-color: lightslategray;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    left: 25px;
+    bottom: 0;
+}
+
+#g-box2{
+    background-color: lightslategray;
+    width: 50px;
+    height: 120px;
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+}
+
+#g-box3{
+    background-color: lightslategray;
+    width: 50px;
+    height: 200px;
+    position: absolute;
+    left: 175px;
+    bottom: 0;
+}
+
+#g-box4{
+    background-color: lightslategray;
+    width: 50px;
+    height: 180px;
+    position: absolute;
+    left: 250px;
+    bottom: 0;
+}
+
+#g-box5{
+    background-color: lightslategray;
+    width: 50px;
+    height: 160px;
+    position: absolute;
+    left: 325px;
+    bottom: 0;
+}
+
+#g-box6{
+    background-color: lightslategray;
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    left: 400px;
+    bottom: 0;
+}
+
+#g-time{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+/* <!-- exercise number 3 --> */
+
+/* #m-container{
+    margin-top: 50px;
+    width: 900px;
+    height: 600px;
+    background-color: whitesmoke;
+    position: relative;
+    
+}
+
+#m-box1{
+    background-color: lightgrey;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+     top: 0;
+     left: 50px;
+
+
+}
+
+#m-box2{
+    background-color: lightgrey;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+     left: 450px;
+}
+
+
+#m-box3{
+    background-color: darkred;
+    width: 100px;
+    height: 150px;
+    position: absolute;
+     top: 100px;
+     left: 50px;
+
+}
+
+#m-box4{
+    background-color: darkred;
+    width: 100px;
+    height: 150px;
+
+    position: absolute;
+     top: 100px;
+     left: 450px;
+}
+
+#m-box5{
+    background-color: darkred;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+     left: 50px;
+     border-radius: 0 0 0 10px;
+
+}
+
+
+#m-box6{
+    background-color: darkred;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+     left: 450px;
+     border-radius: 0 0 10px 0;
+}
+
+#m-box7{
+    background-color: darkred;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+     left: 150px;
+     
+    
+} */
+
+#m-container{
+    background-color: lightgrey;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    border-radius: 0 0 30px 30px;
+}
+
+#m-red{
+    width: 500px;
+    height: 300px;
+    background-color: darkred;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 30px 30px;
+}
+
+#m-inner{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left:100px;
+    border-radius: 0 0 30px 30px;s
+}
+    
+
+
+/* <!-- exercise number 4 --> */
+
+#c-container{
+    background-color: black;
+    width: 425px;
+    height: 215px;
+    position: relative;
+    display: inline-block;
+}
+
+#strip{
+    background-color: darkred;
+    width: 420px;
+    height: 5px;
+    border: solid 2px;
+position: absolute;
+top: 102.5px;
+}
+
+
+#c-box1{
+    background-color: #66320E;
+    width: 100px;
+    height: 100px;
+    float: left;
+   margin: 3px;
+}
+
+#c-box2{
+    background-color: #66320E;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 3px;
+}
+
+#c-box3{
+    background-color: #66320E;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 3px;
+}
+
+#c-box4{
+    background-color: #66320E;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 3px;
+}
+
+#c-box5{
+    background-color: #66320E;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 3px;
+}
+
+#c-box6{
+    background-color: #66320E;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 3px;
+}
+#c-box7{
+    background-color: #66320E;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 3px;
+}
