@@ -127,23 +127,24 @@ myList.push(...lotemList)
 // // Exercise 4
 
 
-let zen = {
-    title:'zen',
-    author:'ben'
-}
+// let zen = {
+//     title:'zen',
+//     author:'ben'
+// }
 
-let tao = {
-    title:'tao',
-    author:'amir'
-}
+// let tao = {
+//     title:'tao',
+//     author:'amir'
+// }
 
-const book =[tao, zen]
+// const book =[tao, zen]
 
-let libery = {
-    books: book,
-}
+// let libery = {
+//     books: book,
+// }
     
-myList.push(...libery.books)
+// myList.push(...libery.books)
 
-console.log (myList)
-  
+// console.log (myList)
+
+
